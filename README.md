@@ -6,7 +6,7 @@ GitHub: @shenrx
 📄 Lisensi
 Proyek ini menggunakan lisensi MIT
 
-Skrip otomatisasi yang memanggil fungsi `increment()` pada smart contract Ethereum secara berulang, dengan mekanisme retry, jeda waktu antar transaksi, dan batas maksimum jumlah.
+Skrip otomatisasi yang memanggil fungsi `increment()` pada smart contract Ethereum secara berulang dan bisa digunakan selain NEXUS III, dengan mekanisme retry, jeda waktu antar transaksi, dan batas maksimum jumlah.
 
 ## 🚀 Fitur
 
@@ -26,7 +26,7 @@ Skrip otomatisasi yang memanggil fungsi `increment()` pada smart contract Ethere
    npm install
 3. Buat file .env:
     ```ENV
-    RPC_URL=https://your-rpc-url
+    RPC_URL=https://nexus-testnet.g.alchemy.com/public
     PRIVATE_KEY=0x...
 
 4. Jalankan skrip:
