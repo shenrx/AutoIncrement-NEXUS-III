@@ -5,6 +5,7 @@ Nama: shenrx
 GitHub: @shenrx
 📄 Lisensi
 Proyek ini menggunakan lisensi MIT
+abcd
 
 Skrip otomatisasi yang memanggil fungsi `increment()` pada smart contract Ethereum secara berulang dan bisa digunakan selain NEXUS III, dengan mekanisme retry, jeda waktu antar transaksi, dan batas maksimum jumlah.
 
