@@ -25,7 +25,7 @@ const path = require("path");
 const provider = new ethers.providers.JsonRpcProvider(process.env.RPC_URL);
 const wallet = new ethers.Wallet(process.env.PRIVATE_KEY, provider);
 
-const contractAddress = "0x06faC261d08429A008695760A0E4c569AE56f2xx";
+const contractAddress = "0xB6b278561334d4b83eD9c5248789D120ecE4aE54"; // CA Increment
 const abi = [
   "function increment() public",
   "function getCount() public view returns (uint256)",
