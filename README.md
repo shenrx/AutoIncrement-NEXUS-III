@@ -33,12 +33,11 @@ Skrip otomatisasi yang memanggil fungsi `increment()` pada smart contract Ethere
     ```bash
       node auto-increment.js
 
-    🔧 Konfigurasi
+## 🔧 Konfigurasi
 Atur parameter berikut dalam file auto-increment.js sesuai kebutuhan:
-    ```Js
-const LIMIT = 20;
-const DELAY = 3000;
-const MAX_COUNT = 2000;
+    const LIMIT = 20; //batas harian
+    const DELAY = 3000; // 3 detik = 3000 ms
+    const MAX_COUNT = 2000; // buat sesuai keinginan
 
 
 
