@@ -25,6 +25,7 @@ const path = require("path");
 const provider = new ethers.providers.JsonRpcProvider(process.env.RPC_URL);
 const wallet = new ethers.Wallet(process.env.PRIVATE_KEY, provider);
 
+// bagian CA
 const contractAddress = "0xB6b278561334d4b83eD9c5248789D120ecE4aE54"; // CA Increment Nexus III - silahkan ganti dengan CA yang kamu buat di https://remix.ethereum.org/ atau biarkan saja
 const abi = [
   "function increment() public",
